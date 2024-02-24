@@ -34,13 +34,13 @@ header{
     position: absolute;
     top: 0;
     right: 0;
-    padding: 2px 7px;
+    padding: 3px 10px;
     background-color: red;
     color: white;
     border: 1px solid ;
     font-size: 1rem;
     font-weight: 600;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 #root{
     display:grid;
