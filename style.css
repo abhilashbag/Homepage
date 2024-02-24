@@ -26,14 +26,18 @@ header{
     justify-content: space-between;
     margin-inline:2rem;
 }
-.logo img,
-.cart img{
+.logo img{
     height: 69px;
+}
+.cart img{
+    background-color: black;
+    color: white;
+    height: 95%;
 }
 .counter{
     position: absolute;
     top: 0;
-    right: 0;
+    right: -10px;
     padding: 4px 9px;
     background-color: red;
     color: white;
