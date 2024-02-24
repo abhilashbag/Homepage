@@ -84,6 +84,7 @@ header{
     background-color: rgb(102, 171, 173);
     color: white;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 @media(max-width:600px ){
