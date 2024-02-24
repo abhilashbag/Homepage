@@ -13,7 +13,8 @@ body{
 header{
     height: 4.2rem;
     background-color: black;
-
+    position: fixed;
+    width: 100%;
 }
 #wrapper{
     position: relative;
@@ -48,6 +49,7 @@ header{
     
 }
 #main-wrapper{
+    margin-top: 4.2rem;
     background-color: rgb(122, 121, 121);
     padding: 2rem;
     display: flex;
