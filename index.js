@@ -258,8 +258,8 @@ product.forEach(function(item){
     button.classList.add("Btn");
 
     image.setAttribute("src" ,url)  ;
-    category.textContent = item.category;
-    price.textContent = item.price;
+    category.textContent = "Category"+ item.category;
+    price.textContent ="Price:" +item.price;
 
     container.append(image,category, price, button);
     mainRoot.appendChild(container);
