@@ -69,6 +69,7 @@ header{
 }
 .grid p{
     font-weight: bold;
+    margin-left: 8px;
 }
 .grid img{
     object-fit: contain;
