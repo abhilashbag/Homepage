@@ -43,7 +43,7 @@ header{
 }
 #root{
     display:grid;
-    grid-template-columns:repeat(3,auto);
+    grid-template-columns:repeat(4,auto);
     gap:1rem;
     
 }
@@ -59,10 +59,10 @@ header{
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
-    transition: transform ease-in-out 200ms;
+    
 }
 .grid:hover{
-    transform: scale(1.02);
+    border: 1px solid ;
 }
 .grid img{
     object-fit: contain;
@@ -98,7 +98,5 @@ header{
     .grid img{
         width: 100%;
     }
-   .grid:not(.grid:hover){
-    transition: transform ease-in-out 200ms;
-   }
+   
 }
